@@ -46,6 +46,13 @@ function one() {
     }
 }
 </script>
+<script type="text/javascript">
+	var p-overlay=
+	document.getElementById("p-overlay");
+	window.addEventListner('load',function(){
+		p-overlay.style.display='none';
+	});
+</script>
 	
 </head>
 <body>
@@ -55,6 +62,9 @@ function one() {
 	<img class="p-logo" src="/images/pd.png" width="30">
   <div class="container-fluid clearfix">
     <!-- Brand and toggle get grouped for better mobile display -->
+    <div id="p-overlay">
+    	<div class="p-spinner ball-pulse"></div>
+    </div>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#p-navbar-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -112,7 +122,7 @@ function one() {
 			<div class="p-down"></div>
 		</div>
 <!-- ********************************************************carousel starts here ************************************************** -->		
-		<div class="carousel slide" id="p-carousel" data-ride="carousel">
+		<div class="container-fluid carousel slide" id="p-carousel" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li class="active" data-target="#p-carousel" data-slide-to="0"></li>
 				<li data-target="#p-carousel" data-slide-to="1"></li>
@@ -197,7 +207,7 @@ function one() {
   				<button onclick="one()">1</button>
 			</div>
 			<div class="row wow slideInRight">
-				<a href="illustration.php">
+				<a href="illustration.html">
 					<div class="column">
 					<img class="raise" src="images/illustration4.jpg" alt="illustration images" style="width: 100%">
 					<img src="images/illustration5.jpg" alt="illustration images" style="width: 100%">
@@ -209,12 +219,11 @@ function one() {
 				</div>	
 			</div>
 				</a>
-			<a href="illustration.php" class="p-seemore">See More</a>	
+			<div class="p-see-more">
+				<a href="illustration.php" class="p-seemore">See More</a>	
+			</div>	
+				
 							
-			
-
-
-			
 			<div class="p-aboutme text-justify">
 				<h2>about me</h2>
 
@@ -328,9 +337,10 @@ function one() {
 	<script src="js/jquery.min.js" src="text/javascript"></script>
 	<script type="text/javascript" src="/uikit/js/uikit.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/typed.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="/js/script.js"></script>
+	<script src="/js/navshrink.js"></script>
+
 	<!--<script type="text/javascript">
 			$(function(){
 			$(".typeme").typed({
