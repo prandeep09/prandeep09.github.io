@@ -12,6 +12,10 @@ $(function(){
   typeSpeed: 50,
   backSpeed: 50,
   loop:true,
-  cursorChar: "|",
+  
 });
+
+document.getElementById("knowmorebtn").onclick = function(){
+	location.href = "main.html";
+};   
 
