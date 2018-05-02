@@ -17,5 +17,10 @@ $(function(){
 
 document.getElementById("knowmorebtn").onclick = function(){
 	location.href = "main.html";
-};   
+}; 
+document.getElementById("hom").onclick = function(){
+	location.href = "index.html";
+};     
+//--------------------------------------------- porfolio.js -------------------------------------//
+
 
