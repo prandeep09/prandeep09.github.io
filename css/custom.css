@@ -52,7 +52,7 @@ h4{
 p{
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
-	line-height: 23px;
+	line-height: 28px;
 	font-weight: 300;
 	color: #e0e0e0;
 	margin: 0 0 23px 0;
@@ -107,6 +107,7 @@ p{
 .p-horizontal{
 	transform: translateY(168%);
 	z-index: -1;
+
 }
 /*.p2-footer{
 	position: relative;
@@ -122,6 +123,7 @@ p{
 	.p-quote{
 		font-size: 0.9em;
 		left: 0;
+		top: 9%;
 	}
 	.p-mypic{
 		position: relative;
@@ -157,8 +159,8 @@ p{
 	width: 100%;
 
 }
-..p-horizontal img{
-	width: 100%;
+.p-horizontal img{
+	height:45px;
 }
 }
 /* ------------------------------------------------------- page2 css ----------------------------------------------------*/ 
@@ -242,6 +244,9 @@ p{
 	margin-bottom: 20px;
 	/*border: 20px solid #323232;*/
 	
+}
+.p2-services h1{
+	padding-bottom: 20px;
 }
 .p2-webE{
 	color: #fff
@@ -468,15 +473,23 @@ img{
 }
 .p2-reference img{
 	width: 150px;
-	float: left;
-	border-radius: 30%;
-	margin-right: 20px;
+	display: block;
+	border-radius: 50%;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
 	border: 2px solid white;
 }
 
 .p2-reference span{
-font-size: 20px;
-  margin-right: 15px;
+	font-size: 20px;
+  	margin-right: 15px;
+  	
+}
+.p2-reference{
+	text-align: center;
+}
+.p2-reference p{
+	padding: 0px 0px 10px 0px;
 }
 .p2-footer {
 background: #303133;	
@@ -516,7 +529,7 @@ background: #303133;
 	position:relative;
 	top:150px;
 	background-color: #a4a7aa;
-	padding: 30px 40px 30px 60px;
+	padding: 30px 40px 80px 60px;
 	width: 550px;
 }
 .p2-web2content{
@@ -524,11 +537,19 @@ background: #303133;
 	top:110px; 
 	left:35px;
 	background-color: #a4a7aa;
-	padding: 30px 40px 30px 60px;
+	padding: 30px 40px 80px 60px;
 	width: 550px;
 }
 .p2-webtwo{
 	float: left;
+}
+#click-view{
+-moz-animation-duration: 3s;
+-moz-animation-delay: 2s;
+-moz-animation-iteration-count: infinite;
+animation-duration: 3s;
+animation-delay: 2s;
+animation-iteration-count: infinite;  
 }
 
 
@@ -569,6 +590,22 @@ background: #303133;
 	.p2-webtwo{
 		float: none;
 	}
+	.navbar-inverse {
+
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,1);
+    z-index: 1;
+	}
+	.prev{
+		left: 0;
+	}
+	.p2-reference img{
+		float: none;
+	}
 	
 }
 /* ------------------------------------------------------- bootstrap.css ------------------------------------------------ */
@@ -607,6 +644,23 @@ background: #303133;
 .row{
 	margin-left: auto;
 	margin-right: auto;
+}
+.dropdown-toggle{
+	border: 2px;
+	background-color: #404142;
+}
+.navbar-right{
+	margin-right: 0;
+}
+.dropdown-menu > li > a{
+	display: inline-block;
+	padding: 3px 10px;
+}
+.dropdown ul{
+	text-align: center;
+}
+.navbar-brand{
+	padding: 0px 15px;
 }
 
 
