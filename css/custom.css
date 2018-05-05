@@ -58,6 +58,12 @@ p{
 	margin: 0 0 23px 0;
 	padding-bottom: 20px;
 }
+input{
+	font-family: 'Lato', sans-serif;	
+}
+textarea{
+	color: #e0e0e0;	
+}
 .p-mypic{
 	position: absolute;
 	top: 25%;
@@ -606,6 +612,16 @@ animation-iteration-count: infinite;
 	.p2-reference img{
 		float: none;
 	}
+	.navbar-header{
+		background:rgb(0,0,0);
+	}
+	.navbar-inverse .navbar-nav > li > a:hover{
+		background: #000;
+	}
+	.p2-social-links > .row > .column{
+	width: 16.67%;
+	padding:15px 0px 30px 0px;
+}
 	
 }
 /* ------------------------------------------------------- bootstrap.css ------------------------------------------------ */
@@ -630,8 +646,8 @@ animation-iteration-count: infinite;
     background-image: none;
     background-image: none;
     background-image: none;
-    background-color: rgba(0,0,0,0);
-    border-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,1);
+    border-color: rgba(0,0,0,1);
     z-index: 1;
 }
 .navbar-inverse li a{
@@ -661,6 +677,10 @@ animation-iteration-count: infinite;
 }
 .navbar-brand{
 	padding: 0px 15px;
+	opacity: 0.6;
+}
+.navbar-brand:hover {
+	opacity: 1;
 }
 
 
