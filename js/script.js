@@ -18,8 +18,8 @@ $(function(){
 document.getElementById("knowmorebtn").onclick = function(){
 	location.href = "main.html";
 }; 
-document.getElementById("hom").onclick = function(){
-	location.href = "index.html";
+document.getElementById("p2-viewsite").onclick = function(){
+	location.href = "images/underconstruction.jpg";
 };     
 //--------------------------------------------- porfolio.js -------------------------------------//
 

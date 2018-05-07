@@ -557,7 +557,18 @@ animation-duration: 3s;
 animation-delay: 2s;
 animation-iteration-count: infinite;  
 }
-
+.p2-viewsite{
+	text-align: center;
+	background: #2197F3;
+	padding: 10px 8px;
+	color: #dbdbdb;
+}
+.p2-web2content a{
+	text-decoration: none;
+}
+.p2-webcontent a{
+	text-decoration: none;
+}
 
 /* ------------------------------------------------------- @media page 2 ------------------------------------------------ */
 @media only screen and (max-width: 992px){
@@ -621,7 +632,16 @@ animation-iteration-count: infinite;
 	.p2-social-links > .row > .column{
 	width: 16.67%;
 	padding:15px 0px 30px 0px;
-}
+	}
+	.navbar-inverse .navbar-nav > li > a{
+		text-align: center;
+		font-size: 2em;
+		padding: 30px;
+	}
+	.navbar-inverse .navbar-nav > li > a > span{
+		display: none;
+	}
+
 	
 }
 /* ------------------------------------------------------- bootstrap.css ------------------------------------------------ */
