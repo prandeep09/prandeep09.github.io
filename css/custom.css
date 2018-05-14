@@ -523,7 +523,7 @@ animation-iteration-count: infinite;
 }
 .p2-design-n-art img{
 	display: block;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 	box-shadow: 1px 1px 5px 3px grey;
 }
 
