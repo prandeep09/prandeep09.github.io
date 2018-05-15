@@ -23,7 +23,7 @@ header{
 	padding: 100px 0 150px 0;	
 	}
 section{
-	padding: 0px 0 70px 0;
+	padding: 0px 0 55px 0;
 	}
 h1{
 	font-family: 'Bree Serif', serif;
@@ -72,6 +72,15 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 }
+.p2-header{
+	background-image: url('/images/starry_sky_cosmos.jpg');
+	display: block;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90%;
+
+}
 
 /* ------------------------------------------------------- isotope.js ---------------------------------------------------*/
 /* ------------------------------------------------------- Navigation ---------------------------------------------------*/
@@ -112,11 +121,16 @@ img{
 }
 .p2-name{
 	position: relative;
-	top: 100px;
+	top: 35px;
+}
+.p2-name h1, .p2-name p{
+	color: #f2f2f2;
+
 }
 .p2-name-dev h2,.p2-name-des h2,.p2-name-art h2{
 	/*box-shadow: 0px 1px 3px 1px #4ECDC4;*/  
 	padding: 6px;
+	border-radius: 10px;
 }
 .p2-name-dev h2{
 	background:#4ECDC4;
@@ -174,7 +188,7 @@ img{
 }
 
 .p2-downbtn  a{
-	float: right;
+	text-align: center;
 	border: 1px solid #68d3c4;
 	text-decoration: none;
 	color: #fafafa;
@@ -201,8 +215,9 @@ img{
 	width: 100%;
 }
 .p2-profilepic img{
-	box-shadow: 0 5px 15px 5px grey; 
-	border-radius: 10px;
+	display: block;
+	box-shadow: 2px 2px 3px 1px #8AE1FCa7; 
+	border-radius: 50%;
 }
 
 /*.p2-about p{
@@ -565,13 +580,13 @@ animation-iteration-count: infinite;
 	}
 	
 	.p2-profilepic img{
+		border-radius: 50%;
 		width: 200px;
-		box-shadow: none;
-		border-radius: 0;
+		box-shadow: 2px 2px 3px 1px #8AE1FCa7;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		padding-bottom: 15px;
+		padding-bottom: 0px;
 		
 	}
 	.p2-icon-shift img{
@@ -691,8 +706,8 @@ animation-iteration-count: infinite;
     background-image: none;
     background-image: none;
     background-image: none;
-    background-color: #f2f2f2;
-    border-color: #f2f2f2;
+    background-color: #f2f2f2f5;
+    border-color: #f2f2f2a0;
     z-index: 1;
 }
 .navbar-inverse li a{
