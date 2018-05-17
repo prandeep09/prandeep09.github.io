@@ -690,9 +690,9 @@ animation-iteration-count: infinite;
 .spinner{
 	width: 90px;
 	height: 90px;
-	border-top: 3px solid #68d3c4;
-	border:2px solid #f3f3f3;
-	border-radius: 50%;
+	 border: 2px solid #f3f3f3;
+    border-top:3px solid #f25a41;
+    border-radius: 100%;
 
 	position: absolute;
 	top: 0;
