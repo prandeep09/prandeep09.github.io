@@ -3,6 +3,12 @@
 $(function(){
 	new WOW().init();
 });
+
+var overlay = document.getElementById("overlay");
+
+window.addEventListener('load', function(){
+  overlay.style.display = 'none';
+})
 /*$('.main-iso').isotope({
 	itemSelector:'.item',
 	layoutMode:'fitRows'

@@ -682,7 +682,35 @@ animation-iteration-count: infinite;
 
 	
 }
+/* ------------------------------------------------------- spinner ------------------------------------------------ */
+.spinner-base{
+	width: 100%;
+	height: 100%;
+}
+.spinner{
+	width: 90px;
+	height: 90px;
+	border-top: 3px solid #68d3c4;
+	border:2px solid #f3f3f3;
+	border-radius: 50%;
 
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+	animation: spin 1s infinite linear;
+}
+
+@keyframes spin{
+	from{
+		transform: rotate(0deg);
+	}to{
+		transform: rotate(360deg);
+	}
+}
 
 /* ------------------------------------------------------- bootstrap.css ------------------------------------------------ */
 /*.navbar-default {
@@ -706,14 +734,18 @@ animation-iteration-count: infinite;
     background-image: none;
     background-image: none;
     background-image: none;
-    background-color: #f2f2f2f5;
+    background-color: rgba(242,242,242,0);
     border-color: #f2f2f2a0;
     z-index: 1;
 }
 .navbar-inverse li a{
 	color: #9d9d9d;
 }
-
+.navbar-default li a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #f2f2f2;
+}
 .navbar-nav .open .dropdown-menu{
 	background-color: #000000e6;
 }
